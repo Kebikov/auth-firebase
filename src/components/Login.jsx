@@ -1,4 +1,4 @@
-//* Воход существующих пользователей 
+//= Воход существующих пользователей 
 import {useDispatch} from 'react-redux';
 import {useHistory} from 'react-router-dom';
 
@@ -25,12 +25,12 @@ const Login = () => {
                 }));
                 push('/');
             })
-            .catch(() => alert('Invalid user!'))
+            .catch(() => alert('Проверьте введенные данные.'))
     }
 
     return (
         <Form
-            title="sign in"
+            title="Войти"
             handleClick={handleLogin}
         />
     )

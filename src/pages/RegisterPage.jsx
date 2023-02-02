@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const RegisterPage = () => {
     return (
         <div>
-            <h1>Register</h1>
+            <h1>Регистрация</h1>
             <SignUp />
             <p>
-                Already have an account? <Link to="/login">Sign in</Link>   
+                Вы уже зарегистрированы ? <Link to="/login">Вход в приложение</Link>   
             </p>            
         </div>
     )
